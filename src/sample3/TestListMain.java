@@ -21,6 +21,7 @@ public class TestListMain {
         startTime = System.nanoTime();
         for(int j = 0; j < testList.size(); j++){
         	String value = testList.get(j);
+        	System.out.println(value);
         }
         endTime = System.nanoTime();
         System.out.println("Select TIME:" + String.valueOf(endTime- startTime));
