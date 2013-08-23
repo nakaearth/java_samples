@@ -3,7 +3,7 @@ package sample3;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class TestMain3 {
+public class TestListMain {
 
 	/**
 	 * @param args
