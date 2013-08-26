@@ -5,9 +5,7 @@ import java.util.LinkedList;
 
 public class TestListMain {
 
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args) {
 		System.out.println("---ArrayList Test---");
 		long startTime = System.nanoTime();
