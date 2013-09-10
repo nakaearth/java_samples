@@ -1,4 +1,4 @@
-package sample1;
+package classSample;
 
 public class TestMain {
 

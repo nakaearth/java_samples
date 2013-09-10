@@ -1,4 +1,4 @@
-package sample1;
+package classSample;
 
 public abstract  class Animal {
     public abstract void eat();
