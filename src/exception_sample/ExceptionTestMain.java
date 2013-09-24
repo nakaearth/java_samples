@@ -4,9 +4,6 @@ import java.io.IOException;
 
 public class ExceptionTestMain {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		try {
 			try {
@@ -22,5 +19,4 @@ public class ExceptionTestMain {
 			System.out.println("finally 2");
 		}
 	}
-
 }
