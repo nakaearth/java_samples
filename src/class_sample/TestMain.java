@@ -10,5 +10,8 @@ public class TestMain {
         dog.execute();
         Cat cat = new Cat();
         cat.execute();
+        
+        Animal animal = new Dog();
+        animal.execute();
 	}
 }
