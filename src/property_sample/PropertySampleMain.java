@@ -15,8 +15,8 @@ public class PropertySampleMain {
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
-		System.out.println("name:" + conf.getProperty("name"));
 		System.out.println("db:" + conf.getProperty("db"));
+		System.out.println("name:" + conf.getProperty("name"));
 		System.out.println("url:" + conf.getProperty("url"));
 
 		System.out.println("=========================");
