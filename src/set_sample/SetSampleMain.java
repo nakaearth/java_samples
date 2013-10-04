@@ -3,7 +3,7 @@ package set_sample;
 import java.util.HashSet;
 import java.util.Set;
 
-public class TestSetMain {
+public class SetSampleMain {
 
 	public static void main(String[] args) {
 		Set<String> set = new HashSet<String>();

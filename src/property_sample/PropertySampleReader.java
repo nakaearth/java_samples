@@ -1,11 +1,8 @@
 package property_sample;
 
 
-public class TestPropertyReader {
+public class PropertySampleReader {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		PropertyReader reader = new PropertyReader();
 		reader.reader();

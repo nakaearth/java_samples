@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.Reader;
 import java.io.Writer;
 
-public class TestFileHandler {
+public class TestFileHandlerSampleMain {
 
 	public static void main(String[] args) {
 		try (Reader reader = new FileReader("test_reader_file.txt");

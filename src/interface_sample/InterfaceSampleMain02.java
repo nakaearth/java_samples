@@ -1,10 +1,7 @@
 package interface_sample;
 
-public class TestMain {
+public class InterfaceSampleMain02 {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		Animal animal = new Dog();
 		animal.eat();

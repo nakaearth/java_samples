@@ -7,7 +7,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class TestFileUtils {
+public class TestFileUtilsSampleMain {
 
 	public static void main(String[] args) {
 //		FileSystem fileSystem = FileSystems.getDefault();

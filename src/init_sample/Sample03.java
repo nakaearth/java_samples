@@ -1,10 +1,7 @@
 package init_sample;
 
-public class Test03 {
+public class Sample03 {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		System.out.println("test hello");
 		if (args.length < 2) {

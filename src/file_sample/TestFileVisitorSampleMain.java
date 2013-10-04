@@ -12,11 +12,8 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class TestFileVisitor {
+public class TestFileVisitorSampleMain {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 //		String fileName = "READ";
 		String fileName = "test";

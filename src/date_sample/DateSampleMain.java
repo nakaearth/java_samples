@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-public class TestDateMain {
+public class DateSampleMain {
 	public static void main(String[] args) {
 		Date date = new Date();
 		SimpleDateFormat format = new SimpleDateFormat("YYYY-MM-dd hh:mm:ss");

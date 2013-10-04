@@ -2,7 +2,7 @@ package exception_sample;
 
 import java.io.IOException;
 
-public class ExceptionTestMain {
+public class ExceptionSampleMain {
 
 	public static void main(String[] args) {
 		try {

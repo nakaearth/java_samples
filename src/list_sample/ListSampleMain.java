@@ -3,7 +3,7 @@ package list_sample;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class TestListMain {
+public class ListSampleMain {
 
 	
 	public static void main(String[] args) {

@@ -3,11 +3,8 @@ package hash_sample;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class TestTreeMap {
+public class TreeMapSampleMain {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		long startTime = System.nanoTime();
 		Map<String, String> map = new TreeMap<>();

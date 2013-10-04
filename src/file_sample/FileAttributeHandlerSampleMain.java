@@ -11,7 +11,7 @@ import java.nio.file.attribute.FileOwnerAttributeView;
 import java.nio.file.attribute.FileTime;
 import java.nio.file.attribute.UserPrincipal;
 
-public class FileAttributeHandler {
+public class FileAttributeHandlerSampleMain {
 
 	public static void main(String[] args) {
 		FileSystem fileSystem = FileSystems.getDefault();

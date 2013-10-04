@@ -2,11 +2,8 @@ package import_sample;
 
 import static java.util.Locale.JAPAN;
 
-public class ImportTestMain {
+public class ImportSampleMain {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		System.out.println(JAPAN.getLanguage());
 	}

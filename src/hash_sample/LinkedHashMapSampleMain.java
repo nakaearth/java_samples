@@ -1,16 +1,13 @@
 package hash_sample;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class TestHashMap {
+public class LinkedHashMapSampleMain {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		long startTime = System.nanoTime();
-		Map<String, String> map = new HashMap<>();
+		Map<String, String> map = new LinkedHashMap<>();
 		for(int i = 0; i < 10000; i++) {
 		    map.put("key" + i , "value" + i);
 		    map.get("key" + i);
@@ -21,7 +18,7 @@ public class TestHashMap {
         
         System.out.println("===========Hash link table initialize=============");
 	    startTime = System.nanoTime();
-		Map<String, String> map2 = new HashMap<>(30);
+		Map<String, String> map2 = new LinkedHashMap<>(30);
 		for(int i = 0; i < 10000; i++) {
 			map2.put("key" + i , "value" + i);
 			map2.get("key" + i);

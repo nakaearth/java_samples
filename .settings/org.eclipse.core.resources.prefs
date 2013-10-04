@@ -1,6 +1,6 @@
 eclipse.preferences.version=1
-encoding//src/hash_sample/TestHashMap.java=UTF-8
-encoding//src/hash_sample/TestLinkedHashMap.java=UTF-8
-encoding//src/hash_sample/TestTreeMap.java=UTF-8
-encoding//src/list_sample/TestListMain.java=UTF-8
+encoding//src/hash_sample/HashMapSampleMain.java=UTF-8
+encoding//src/hash_sample/LinkedHashMapSampleMain.java=UTF-8
+encoding//src/hash_sample/TreeMapSampleMain.java=UTF-8
+encoding//src/list_sample/ListSampleMain.java=UTF-8
 encoding/<project>=UTF-8
