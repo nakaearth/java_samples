@@ -1,22 +1,21 @@
 package date_sample;
+
+import org.joda.time.DateTime;
 import org.joda.time.LocalDate;
 import org.joda.time.LocalDateTime;
 import org.joda.time.LocalTime;
 
 public class JodaTimeSampleMain {
 	public static void main(String[] args) {
-		LocalDate date = LocalDate.now();
-		System.out.println(date);
-		// 時間
-		LocalTime time = LocalTime.now();
-		System.out.println(time);
-		// 日時
-		LocalDateTime dateTime = LocalDateTime.now();
-		System.out.println(dateTime);		
-		// 現在の日時
-		System.out.println(LocalDateTime.now());
-
-		// 文字列を指定。秒未満は省略可
-		System.out.println(LocalDateTime.parse("2012-02-03T21:30:15.123"));
+		DateTime dt = new DateTime();
+		System.out.println(dt);
+		System.out.println("フォーマットを変える:" + dt.toString("yyyy/MM/dd"));
+		System.out.println("年:" + dt.getYear());
+		System.out.println("月:" + dt.getMonthOfYear());
+		System.out.println("日:" + dt.getDayOfMonth());
+		System.out.println("時:" + dt.getHourOfDay());
+		System.out.println("分:" + dt.getMinuteOfHour());
+		System.out.println("10日後:" + dt.plusDays(10));
+		System.out.println("1週間後:" + dt.plusWeeks(1));
 	}
 }
