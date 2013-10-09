@@ -35,10 +35,12 @@ public class FileHandlerSampleMain {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+
 		System.out.println("-----Buffered------");
-		try (BufferedReader reader = new BufferedReader(new FileReader("test_reader_file3.txt"));
-				BufferedWriter writer = new BufferedWriter(new FileWriter("test_out3.txt"));) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(
+				"test_reader_file3.txt"));
+				BufferedWriter writer = new BufferedWriter(new FileWriter(
+						"test_out3.txt"));) {
 			int ch;
 			while ((ch = reader.read()) != -1) {
 				writer.write(ch);
@@ -46,10 +48,12 @@ public class FileHandlerSampleMain {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+
 		// ファイルを読み込みコンソールに出力
-		try (BufferedInputStream reader = new BufferedInputStream(new FileInputStream("test_reader_file4.txt"));
-				BufferedOutputStream writer = new BufferedOutputStream(new FileOutputStream("test_out4.txt"));) {
+		try (BufferedInputStream reader = new BufferedInputStream(
+				new FileInputStream("test_reader_file4.txt"));
+				BufferedOutputStream writer = new BufferedOutputStream(
+						new FileOutputStream("test_out4.txt"));) {
 			int ch;
 			while ((ch = reader.read()) != -1) {
 				writer.write(ch);
