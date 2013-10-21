@@ -21,7 +21,7 @@ public class PropertySampleMain {
 
 		System.out.println("=========================");
 		ResourceBundle rb = ResourceBundle.getBundle("test");
-		for (Enumeration e = rb.getKeys(); e.hasMoreElements();) {
+		for (Enumeration<String> e = rb.getKeys(); e.hasMoreElements();) {
 			String key = (String) e.nextElement();
 			String val = rb.getString(key);
 			System.out.println(key + ":" + val);

@@ -1,9 +1,6 @@
 package date_sample;
 
 import org.joda.time.DateTime;
-import org.joda.time.LocalDate;
-import org.joda.time.LocalDateTime;
-import org.joda.time.LocalTime;
 
 public class JodaTimeSampleMain {
 	public static void main(String[] args) {
